@@ -17,7 +17,6 @@ import javax.persistence.Table;
         name = "getAllMessages",
         query = "SELECT m FROM Message AS m ORDER BY m.id DESC"
     )
-
 })
 @Table(name = "messages")
 public class Message {
